@@ -1,5 +1,6 @@
 BR2_arm=y
 BR2_cortex_a7=y
+BR2_GLOBAL_PATCH_DIR="board/stmicroelectronics/stm32mp157-dk/patches/"
 BR2_TOOLCHAIN_EXTERNAL=y
 BR2_ROOTFS_OVERLAY="board/stmicroelectronics/stm32mp157-dk/overlay/"
 BR2_ROOTFS_POST_IMAGE_SCRIPT="support/scripts/genimage.sh"
